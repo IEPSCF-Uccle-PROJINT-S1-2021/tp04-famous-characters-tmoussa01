@@ -94,34 +94,3 @@ console.log(tableau);
   return tableau;
 }
 
-function triParNom (tab) {
-  tab.sort(function(a,b){
-    if(a.lastName > b.lastName){
-      return 1;
-    }
-    if(a.lastName < b.lastName){
-      return -1
-    }
-    else{
-       return 0;
-    }
-
-  });
-  return tab;
-}
-
-
-function triParPrenom (tab) {
-  tab.sort(function compare(a,b){
-    if(a.firstName >b.firstName){
-      return 1;
-    }
-    if(a.firstName <b.firstName){
-      return -1;
-    }
-    else{
-      return 0;
-    }
-  });
-  return tab;
-}
