@@ -1,0 +1,25 @@
+{
+  "name": "projint_npm",
+  "version": "1.0.0",
+  "description": "La page web que vous allez créer doit afficher des personnages célèbres.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp04-famous-characters-tmoussa01.git"
+  },
+  "author": "Tahri moussa",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp04-famous-characters-tmoussa01/issues"
+  },
+  "homepage": "https://github.com/IEPSCF-Uccle-PROJINT-S1-2021/tp04-famous-characters-tmoussa01#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.0"
+  }
+}
